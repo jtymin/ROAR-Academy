@@ -24,4 +24,6 @@ plt.title("ASCII histogram")
 label_axis = np.arange(0.5,26.5).tolist()
 plt.xticks(label_axis, hist_labels)
 plt.xlim(0, 26)
+
+
 plt.show()
